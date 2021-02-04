@@ -40,7 +40,7 @@ By the way, we also provide code, [inference/eval.py](inference/eval.py)  to eva
 ## OMAPS dataset
 **OMAPS** dataset stands for **Ordinary MIDI Aligned Piano Sounds** dataset. OMAPS dataset is recorded from an ordinary electronic Yamaha piano P-115 played by a professional musician under the general recording environment. The MIDI derived from the electronic piano is used as the annotation. This dataset contains 106 pieces of easy, medium and difficult scores at different levels, a total of 216 minutes. It is used to evaluate the performance of piano transcription algorithms in an **ordinary recording environment**.
 
-The complete OMAPS dataset will be available when the paper is published. A sample of this dataset is provided in directory [inference/omaps](inference/omaps). The three columns of label file in inference/omaps/sample.txt represent onset, offset, and pitch respectively.
+The complete OMAPS dataset will be available when the paper is published. A sample of this dataset is provided in directory [omaps](omaps). The three columns of label file in [omaps/sample.txt](omaps/sample.txt) represent onset, offset, and pitch respectively.
 
 <audio id="audio" controls="" preload="none">
    <source id="mp3" src="omaps/sample.mp3">
